@@ -5,7 +5,7 @@ using UnityEngine;
 public class SmoothCameraFollow : MonoBehaviour
 {
     private Transform playerTrans;
-    private float smoothTime = 1.5f;
+    private float smoothTime = 0.5f;
     private Vector3 velocity = Vector3.zero;
 
     void Start()

@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -298, y: 350}
+  m_AnchoredPosition: {x: -224, y: 212}
   m_SizeDelta: {x: 42.038, y: 42.0378}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &64860726
@@ -5143,7 +5143,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -290.24384, y: 288.31033}
+  m_AnchoredPosition: {x: -212, y: 165}
   m_SizeDelta: {x: 155.7, y: 29.1695}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &720509990
@@ -5638,7 +5638,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -242, y: 350}
+  m_AnchoredPosition: {x: -168, y: 212}
   m_SizeDelta: {x: 42.038, y: 42.0378}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1335879439
@@ -5989,7 +5989,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -352, y: 350}
+  m_AnchoredPosition: {x: -278, y: 212}
   m_SizeDelta: {x: 42.038, y: 42.0378}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1865281291
@@ -6207,6 +6207,7 @@ MonoBehaviour:
   flares: {fileID: 192910729}
   laser: {fileID: 996307021136541075, guid: 05d757ab6ce5d471c903be3d931bf2bb, type: 3}
   explosion: {fileID: 1456824177950842274, guid: 1c711474587b54cdda3d1c316021d521, type: 3}
+  spawnArea: {fileID: 1264961656}
   laserSound: {fileID: 2101360935}
 --- !u!50 &2101360933
 Rigidbody2D:

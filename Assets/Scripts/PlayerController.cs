@@ -18,6 +18,9 @@ public class PlayerController : MonoBehaviour
     private GameObject explosion;
 
     [SerializeField]
+    private Transform spawnArea;
+
+    [SerializeField]
     private AudioSource laserSound;
 
     void Start()
@@ -39,11 +42,11 @@ public class PlayerController : MonoBehaviour
         }
         else if (turnLeft)
         {
-            rBody.AddTorque(10);
+            rBody.AddTorque(5000 * Time.deltaTime);
         }
         else if (turnRight)
         {
-            rBody.AddTorque(-10);
+            rBody.AddTorque(-5000 * Time.deltaTime);
         }
     }
 
@@ -52,7 +55,6 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             laserSound.Play();
-            Transform spawnArea = gameObject.transform.GetChild(1).transform;
             GameObject laserClone =
                 Instantiate(laser, spawnArea.position, spawnArea.rotation);
 
